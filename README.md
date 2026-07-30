@@ -54,3 +54,15 @@ Response:
 * Go with the Gin framework was chosen to implement a lightweight RESTful microservice.
 * The backend follows a layered architecture separating handlers, services, models, and tests to improve maintainability and code organization.
 * Axios is used for HTTP communication between the frontend and backend, while both frontend and backend perform input validation to ensure reliable operation.
+
+
+## Coverage
+
+Backend tests can be run using:
+
+go test ./... -cover
+
+To generate a detailed HTML coverage report:
+
+go test ./... -coverprofile=coverage.out
+go tool cover -html=coverage.out

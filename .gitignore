@@ -1,0 +1,16 @@
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Go
+backend/bin/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
